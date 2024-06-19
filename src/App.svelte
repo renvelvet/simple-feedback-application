@@ -1,6 +1,16 @@
-<main>
-	<h1>Hello</h1>
+<script>
+	import HomePage from './components/HomePage.svelte';
+	import FeedbackList from './components/FeedbackList.svelte';	
+</script>
+
+<!-- <main class="app-container">
+	<HomePage />
 </main>
+ -->
+
+ <div class="container">
+	<FeedbackList />
+ </div>
 
 <style>
 	h1 {

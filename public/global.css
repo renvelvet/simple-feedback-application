@@ -62,7 +62,7 @@ ul {
 .name{
   margin: 10px;
 }
-.home-conatiner{
+.home-container{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

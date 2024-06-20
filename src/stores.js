@@ -1,6 +1,6 @@
-import { writable } from 'svelte/store'
+import { writable } from "svelte/store";
 
-export const courseId = writable(1)
+export const courseId = writable(1);
 export const courses = writable([
   {
     id: 0,
@@ -9,17 +9,17 @@ export const courses = writable([
       {
         id: 1,
         rating: 7,
-        text: 'The course was good but I struggled in developing interest into the course. Adding more interactive elements will solve this problems',
+        text: "The course was good but I struggled in developing interest into the course. Adding more interactive elements will solve this problems",
       },
       {
         id: 0,
         rating: 10,
-        text: 'This was the best course I have taken so far. It gave me a very in depth knowledge the subject. Will recommend to others',
+        text: "This was the best course I have taken so far. It gave me a very in depth knowledge the subject. Will recommend to others",
       },
       {
         id: 2,
         rating: 4,
-        text: 'It was no up the expectations.',
+        text: "It was no up the expectations.",
       },
     ],
   },
@@ -30,17 +30,17 @@ export const courses = writable([
       {
         id: 1,
         rating: 7,
-        text: 'The course was good but I struggled in developing interest into the course. Adding more interactive elements will solve this problems',
+        text: "The course was good but I struggled in developing interest into the course. Adding more interactive elements will solve this problems",
       },
       {
         id: 2,
         rating: 4,
-        text: 'It was no up the expectations.',
+        text: "It was no up the expectations.",
       },
       {
         id: 0,
         rating: 10,
-        text: 'This was the best course I have taken so far. It gave me a very in depth knowledge the subject. Will recommend to others',
+        text: "This was the best course I have taken so far. It gave me a very in depth knowledge the subject. Will recommend to others",
       },
     ],
   },
@@ -51,17 +51,17 @@ export const courses = writable([
       {
         id: 2,
         rating: 4,
-        text: 'It was no up the expectations.',
+        text: "It was no up the expectations.",
       },
       {
         id: 0,
         rating: 10,
-        text: 'This was the best course I have taken so far. It gave me a very in depth knowledge the subject. Will recommend to others',
+        text: "This was the best course I have taken so far. It gave me a very in depth knowledge the subject. Will recommend to others",
       },
       {
         id: 1,
         rating: 7,
-        text: 'The course was good but I struggled in developing interest into the course. Adding more interactive elements will solve this problems',
+        text: "The course was good but I struggled in developing interest into the course. Adding more interactive elements will solve this problems",
       },
     ],
   },
@@ -72,17 +72,17 @@ export const courses = writable([
       {
         id: 0,
         rating: 9,
-        text: 'This was the best course I have taken so far. It gave me a very in depth knowledge the subject. Will recommend to others',
+        text: "This was the best course I have taken so far. It gave me a very in depth knowledge the subject. Will recommend to others",
       },
       {
         id: 1,
         rating: 7,
-        text: 'The course was good but I struggled in developing interest into the course. Adding more interactive elements will solve this problems',
+        text: "The course was good but I struggled in developing interest into the course. Adding more interactive elements will solve this problems",
       },
       {
         id: 2,
         rating: 5,
-        text: 'It was no up the expectations.',
+        text: "It was no up the expectations.",
       },
     ],
   },
@@ -93,17 +93,17 @@ export const courses = writable([
       {
         id: 0,
         rating: 10,
-        text: 'This was the best course I have taken so far. It gave me a very in depth knowledge the subject. Will recommend to others',
+        text: "This was the best course I have taken so far. It gave me a very in depth knowledge the subject. Will recommend to others",
       },
       {
         id: 1,
         rating: 8,
-        text: 'The course was good but I struggled in developing interest into the course. Adding more interactive elements will solve this problems',
+        text: "The course was good but I struggled in developing interest into the course. Adding more interactive elements will solve this problems",
       },
       {
         id: 2,
         rating: 4,
-        text: 'It was no up the expectations.',
+        text: "It was no up the expectations.",
       },
     ],
   },
@@ -114,18 +114,18 @@ export const courses = writable([
       {
         id: 0,
         rating: 10,
-        text: 'This was the best course I have taken so far. It gave me a very in depth knowledge the subject. Will recommend to others',
+        text: "This was the best course I have taken so far. It gave me a very in depth knowledge the subject. Will recommend to others",
       },
       {
         id: 2,
         rating: 4,
-        text: 'It was no up the expectations.',
+        text: "It was no up the expectations.",
       },
       {
         id: 1,
         rating: 7,
-        text: 'The course was good but I struggled in developing interest into the course. Adding more interactive elements will solve this problems',
+        text: "The course was good but I struggled in developing interest into the course. Adding more interactive elements will solve this problems",
       },
     ],
   },
-])
+]);

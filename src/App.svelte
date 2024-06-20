@@ -1,6 +1,7 @@
 <script>
-	import HomePage from './components/HomePage.svelte';
-	import FeedbackList from './components/FeedbackList.svelte';	
+  import HomePage from "./components/HomePage.svelte";
+  import FeedbackList from "./components/FeedbackList.svelte";
+  import FeedbackStats from "./components/FeedbackStats.svelte";
 </script>
 
 <!-- <main class="app-container">
@@ -8,15 +9,16 @@
 </main>
  -->
 
- <div class="container">
-	<FeedbackList />
- </div>
+<div class="container">
+  <FeedbackList />
+  <FeedbackStats />
+</div>
 
 <style>
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
+  h1 {
+    color: #ff3e00;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 100;
+  }
 </style>

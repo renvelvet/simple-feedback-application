@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,7 +6,7 @@
   padding: 0;
 }
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   line-height: 1.6;
 }
 ul {
@@ -23,12 +23,12 @@ ul {
   width: 100px;
   height: 40px;
   cursor: pointer;
-  background-color:rgb(73 81 245);
-  color: white;;
+  background-color: rgb(73 81 245);
+  color: white;
   margin-bottom: 10px;
 }
-.button:hover{
-  background-color:rgb(69, 75, 204);
+.button:hover {
+  background-color: rgb(69, 75, 204);
 }
 .card {
   color: #333;
@@ -38,8 +38,8 @@ ul {
   margin: 20px 0;
   position: relative;
 }
-.card:hover{
-  border: 1px solid black
+.card:hover {
+  border: 1px solid black;
 }
 
 /* These are the classes for the home page */
@@ -56,27 +56,27 @@ ul {
   align-items: center;
   margin: 20px;
 }
-.course-card:hover{
+.course-card:hover {
   border: 1px solid black;
 }
-.name{
+.name {
   margin: 10px;
 }
-.home-container{
+.home-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
   max-width: 1150px;
 }
-.img{
+.img {
   width: 298px;
   height: 155px;
   z-index: -1;
 }
 
 /* This is the class for the app component */
-.app-container{
+.app-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,7 +110,7 @@ input:focus {
   outline: none;
 }
 
-.input-button{
+.input-button {
   top: 10px;
   left: 10px;
   border: 0;
@@ -118,8 +118,8 @@ input:focus {
   width: 100px;
   height: 40px;
   cursor: pointer;
-  background-color:rgb(73 81 245);
-  color: white;;
+  background-color: rgb(73 81 245);
+  color: white;
 }
 
 /* Classes for FeedbackItem Component. */
@@ -129,7 +129,7 @@ input:focus {
   left: -10px;
   width: 50px;
   height: 50px;
-  background:rgb(73 81 245);
+  background: rgb(73 81 245);
   border: 1px #eee solid;
   border-radius: 50%;
   padding: 10px;
@@ -144,10 +144,10 @@ input:focus {
   background: none;
   border: none;
 }
-.delete:hover{
+.delete:hover {
   color: red;
 }
-.rating-text{
+.rating-text {
   color: white;
 }
 
@@ -197,11 +197,11 @@ input:focus {
   color: white;
 }
 
-[type='radio'] {
+[type="radio"] {
   opacity: 0;
 }
 
-[type='radio']:checked ~ label {
-  background:rgb(73 81 245);
-  color:white;
+[type="radio"]:checked ~ label {
+  background: rgb(73 81 245);
+  color: white;
 }

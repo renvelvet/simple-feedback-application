@@ -1,9 +1,11 @@
 <script>
-  import { courseId, courses } from '../stores';
-  import FeedbackItem from './FeedbackItem.svelte';
+  import { courseId, courses } from "../stores";
+  import FeedbackItem from "./FeedbackItem.svelte";
 
   let currentCourseId;
-  courseId.subscribe(value => {currentCourseId = value})
+  courseId.subscribe((value) => {
+    currentCourseId = value;
+  });
 </script>
 
 {#each $courses[currentCourseId].feedbacks as feedback}

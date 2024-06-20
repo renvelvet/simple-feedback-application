@@ -1,17 +1,20 @@
 <script>
+  import { Route, Router } from "svelte-routing";
   import HomePage from "./components/HomePage.svelte";
-  import FeedbackList from "./components/FeedbackList.svelte";
-  import FeedbackStats from "./components/FeedbackStats.svelte";
+  import FeedbackPage from "./components/FeedbackPage.svelte";
+
+  export let url = "";
 </script>
 
-<!-- <main class="app-container">
-	<HomePage />
-</main>
- -->
-
-<div class="container">
-  <FeedbackList />
-  <FeedbackStats />
+<div class="app-container">
+  <Router {url}>
+    <Route path="feedbackpage">
+      <FeedbackPage />
+    </Route>
+    <Route path="/">
+      <HomePage />
+    </Route>
+  </Router>
 </div>
 
 <style>

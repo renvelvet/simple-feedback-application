@@ -1,6 +1,6 @@
 <script>
   import { courseId, courses } from "../stores";
-  import Rating from "./Rating.svelte";
+
   let currentCourseId;
   let count;
 
@@ -14,5 +14,4 @@
 
 <div class="feedback-stats">
   <h4>{count} Reviews</h4>
-  <Rating />
 </div>

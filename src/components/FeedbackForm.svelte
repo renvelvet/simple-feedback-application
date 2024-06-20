@@ -1,4 +1,5 @@
 <script>
+  import { toast } from "@zerodevx/svelte-toast";
   import { courseId, courses } from "../stores";
   import Rating from "./Rating.svelte";
 
@@ -32,6 +33,12 @@
     });
 
     text = "";
+    toast.push("Thank you for the feedback!", {
+      theme: {
+        "--toastBackground": "#48BB78",
+        "--toastBarBackground": "#2F855A",
+      },
+    });
   };
 </script>
 

@@ -1,4 +1,5 @@
 <script>
+  import { toast } from "@zerodevx/svelte-toast";
   import Icon from "@iconify/svelte";
   import { courseId, courses } from "../stores";
 
@@ -23,6 +24,13 @@
       };
 
       return courseArr;
+    });
+
+    toast.push("Feedback Deleted!", {
+      theme: {
+        "--toastBackground": "#F56565",
+        "--toastBarBackground": "#C53030",
+      },
     });
   };
 </script>

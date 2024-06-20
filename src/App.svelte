@@ -1,4 +1,5 @@
 <script>
+  import { SvelteToast } from "@zerodevx/svelte-toast";
   import { Route, Router } from "svelte-routing";
   import HomePage from "./components/HomePage.svelte";
   import FeedbackPage from "./components/FeedbackPage.svelte";
@@ -15,6 +16,7 @@
       <HomePage />
     </Route>
   </Router>
+  <SvelteToast />
 </div>
 
 <style>

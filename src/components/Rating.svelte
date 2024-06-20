@@ -12,7 +12,7 @@
 
   const range = (start, end) => {
     return Array.from({ length: end - start + 1 }, (_, i) => start + i);
-  }
+  };
 </script>
 
 <ul class="rating">
@@ -22,6 +22,7 @@
         type="radio"
         id="num{i}"
         value={i}
+        name="rating"
         on:change={onChange}
         checked={selected === i}
       />
